@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { Survey, Question, QuestionType, SurveyResponse } from './types';
-import { generateSurveyFromPrompt } from './services/GeminiService';
+import { generateSurveyFromPrompt } from './GeminiService';
 import QuestionEditor from './components/QuestionEditor';
 import FormViewer from './components/FormViewer';
 import ResponsesViewer from './components/ResponsesViewer';
